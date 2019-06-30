@@ -11,7 +11,7 @@ composer require --dev symfony/phpunit-bridge
 composer require fzaninotto/faker
 
 
-##install codesniffer code quality
+## install codesniffer code quality
 
 {
     "require-dev": {
