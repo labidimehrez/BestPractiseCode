@@ -33,12 +33,12 @@ class Calculator
     /**
      * Get the sum
      *
-     * This function add two var if possible  
+     * This function add two var if possible
      * and returns th result if possible
-     * 
+     *
      * @param float $a this is the first param
      * @param float $b this is the second param
-     * 
+     *
      * @return float
      */
     public function add($a, $b)
@@ -50,10 +50,10 @@ class Calculator
      *
      * This function divide two var if possible or throw exception
      * and returns th result if possible
-     * 
+     *
      * @param float $a this is the first param
      * @param float $b this is the second param
-     * 
+     *
      * @return float
      */
     public function divide($a, $b)
