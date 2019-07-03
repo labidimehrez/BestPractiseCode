@@ -10,6 +10,8 @@ namespace test\Entity;
 
 use PHPUnit\Framework\TestCase;
 use App\Entity\Service;
+use Mockery;
+
 //use Psr\Log\LoggerInterface;
 
 /**
@@ -19,9 +21,9 @@ use App\Entity\Service;
  */
 class ServiceTest extends TestCase
 {
-    public function init()
+   public function tearDown()
     {
-        return new Service();
+        Mockery::close();
     }
     public function testIndex()
     {
